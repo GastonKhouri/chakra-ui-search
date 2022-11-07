@@ -1,0 +1,1 @@
+export { searchExampleByQuery } from './fakeApiCall';
