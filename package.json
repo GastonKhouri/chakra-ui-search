@@ -1,5 +1,5 @@
 {
-	"version": "1.0.2",
+	"version": "1.1.1",
 	"private": false,
 	"license": "MIT",
 	"main": "dist/index.js",
@@ -52,6 +52,7 @@
 	},
 	"name": "chakra-ui-search",
 	"author": "Gaston Khouri",
+	"description": "Search component designed to work seamlessly with Chakra UI",
 	"module": "dist/chakra-ui-search.esm.js",
 	"size-limit": [
 		{

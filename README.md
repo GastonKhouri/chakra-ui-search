@@ -5,6 +5,9 @@
 <br />
 
 [![MIT License](https://badgen.net/github/license/gastonkhouri/chakra-ui-search 'MIT License')](LICENSE.md)
+[![npm - chakra-ui-search](https://img.shields.io/npm/v/chakra-ui-search 'chakra-ui-search npm')](https://www.npmjs.com/package/chakra-ui-search)
+[![Total Downloads - chakra-ui-search](https://badgen.net/npm/dt/chakra-ui-search?color=blue 'chakra-ui-search npm downloads')](https://www.npmjs.com/package/chakra-ui-search)
+
 ![screenshot](https://i.imgur.com/IjCMA7y.gif)
 
 ## Installation
