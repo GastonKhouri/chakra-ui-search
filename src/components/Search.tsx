@@ -36,7 +36,7 @@ export const Search = ( props: Props ) => {
 	const onBlur = () => {
 		setTimeout( () => {
 			setShowResults( false );
-		}, 100 );
+		}, 170 );
 	};
 
 	return (
