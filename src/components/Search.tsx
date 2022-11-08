@@ -8,6 +8,7 @@ interface Props extends BoxProps {
 	onSearchChange: ( event: React.ChangeEvent<HTMLInputElement> ) => void;
 	resultRenderer: ( result: any ) => JSX.Element;
 	onResultSelect: ( result: any ) => void;
+	resultListMaxHeight?: string;
 	searchResults?: any[];
 	placeholder?: string;
 	input?: { iconPosition: 'left' | 'right'; };
@@ -23,6 +24,7 @@ export const Search = ( props: Props ) => {
 		onSearchChange,
 		resultRenderer,
 		onResultSelect,
+		resultListMaxHeight = '60vh',
 		placeholder = '',
 		searchResults = [],
 		noResultFoundText = 'No results found.',
@@ -84,7 +86,7 @@ export const Search = ( props: Props ) => {
 				showResults && (
 					<Box
 						bgColor="white"
-						maxHeight="60vh"
+						maxHeight={ resultListMaxHeight }
 						overflowY="auto"
 						borderRadius="0.3em"
 						boxShadow="0 2px 4px 0 rgb(34 36 38 / 12%), 0 2px 10px 0 rgb(34 36 38 / 15%);"
